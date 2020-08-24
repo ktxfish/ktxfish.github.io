@@ -3,6 +3,7 @@ title: Mountain View | USACO 2019 Jan Silver
 date: 2020-08-15 23:00:00
 category: USACO
 tags:
+- pair
 ---
 
 <!--more-->

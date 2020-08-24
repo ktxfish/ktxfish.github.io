@@ -4,6 +4,7 @@ date: 2020-08-20 22:15:00
 category: USACO
 tags:
 - depth first search
+- vector
 ---
 
 <!--more-->

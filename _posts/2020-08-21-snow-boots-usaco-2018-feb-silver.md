@@ -3,6 +3,7 @@ title: Snow Boots | USACO 2018 Feb Silver
 date: 2020-08-21 14:45:00
 category: USACO
 tags:
+- breadth first search
 ---
 
 <!--more-->

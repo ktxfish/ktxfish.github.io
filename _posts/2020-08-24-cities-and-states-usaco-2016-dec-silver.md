@@ -3,6 +3,7 @@ title: Cities and States | USACO 2016 Dec Silver
 date: 2020-08-24 13:00:00
 category: USACO
 tags:
+- map
 ---
 
 <!--more-->

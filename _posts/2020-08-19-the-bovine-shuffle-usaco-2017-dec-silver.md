@@ -3,6 +3,8 @@ title: The Bovine Shuffle | USACO 2017 Dec Silver
 date: 2020-08-19 21:45:00
 category: USACO
 tags:
+- queue
+- vector
 ---
 
 <!--more-->

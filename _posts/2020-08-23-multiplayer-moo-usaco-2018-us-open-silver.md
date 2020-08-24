@@ -5,6 +5,8 @@ category: USACO
 tags:
 - depth first search
 - flood fill
+- map
+- set
 ---
 
 <!--more-->

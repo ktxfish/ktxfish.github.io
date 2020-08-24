@@ -4,6 +4,7 @@ date: 2020-08-17 16:25:00
 category: USACO
 tags:
 - flood fill
+- vector
 ---
 
 <!--more-->

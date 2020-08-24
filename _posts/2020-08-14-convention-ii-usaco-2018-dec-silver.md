@@ -4,6 +4,7 @@ date: 2020-08-14 19:00:00
 category: USACO
 tags:
 - priority queue
+- pair
 ---
 
 <!--more-->

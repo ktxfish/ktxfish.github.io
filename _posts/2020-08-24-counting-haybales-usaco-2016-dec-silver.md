@@ -3,7 +3,6 @@ title: Counting Haybales | USACO 2016 Dec Silver
 date: 2020-08-24 11:00:00
 category: USACO
 tags:
-- binary search
 ---
 
 <!--more-->

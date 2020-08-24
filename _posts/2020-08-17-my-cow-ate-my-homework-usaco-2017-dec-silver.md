@@ -4,6 +4,7 @@ date: 2020-08-17 21:30:00
 category: USACO
 tags:
 - prefix sum
+- vector
 ---
 
 <!--more-->

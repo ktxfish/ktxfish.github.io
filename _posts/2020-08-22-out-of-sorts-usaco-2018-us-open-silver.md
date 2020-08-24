@@ -3,6 +3,7 @@ title: Out of Sorts | USACO 2018 US Open Silver
 date: 2020-08-22 20:00:00
 category: USACO
 tags:
+- pair
 ---
 
 <!--more-->
