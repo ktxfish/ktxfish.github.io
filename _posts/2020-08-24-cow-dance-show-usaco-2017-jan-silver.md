@@ -4,6 +4,7 @@ date: 2020-08-24 16:15:00
 category: USACO
 tags:
 - binary search
+- priority query
 ---
 
 <!--more-->
