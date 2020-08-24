@@ -55,14 +55,14 @@ void double_search(int a, int b, int r)
 {
     seen_node[r] = true;
     double_size += node[r].size;
-	int t = (node[r].id == a ? b : a);
+    int t = (node[r].id == a ? b : a);
     for (int s : node[r].adj)
         if (node[s].id == t)
-		{
+        {
             seen_edge[{r, s}] = true, seen_edge[{s, r}] = true;
-			if (!seen_node.count(s))
-				double_search(a, b, s);
-		}
+            if (!seen_node.count(s))
+                double_search(a, b, s);
+        }
 }
 
 int main()
