@@ -3,12 +3,12 @@ title: Why Did the Cow Cross the Road II | USACO 2017 Feb Silver
 date: 2020-08-25 18:00:00
 category: USACO
 tags:
+- prefix sum
 ---
 
 <!--more-->
 
 ```c++
-#include <algorithm>
 #include <fstream>
 
 #define MAX_N 100000
@@ -17,7 +17,7 @@ std::ifstream fin("maxcross.in");
 std::ofstream fout("maxcross.out");
 
 int N, K, B;
-int repair[MAX_N], min_repair = MAX_N;
+int repair[MAX_N + 1], min_repair = MAX_N;
 
 int main()
 {
@@ -26,12 +26,13 @@ int main()
     {
         int id;
         fin >> id;
-        for (int r = std::max(0, id - K); r < id; ++r)
-            ++repair[r];
+        ++repair[id];
     }
-    for (int r = 0; r <= N - K; ++r)
-        if (repair[r] < min_repair)
-            min_repair = repair[r];
+    for (int n = 1; n <= N; ++n)
+        repair[n] += repair[n - 1];
+    for (int n = 0; n <= N - K; ++n)
+        if (repair[n + K] - repair[n] < min_repair)
+            min_repair = repair[n + K] - repair[n];
     fout << min_repair << '\n';
     return 0;
 }
