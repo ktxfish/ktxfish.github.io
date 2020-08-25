@@ -3,6 +3,7 @@ title: Why Did the Cow Cross the Road | USACO 2017 Feb Silver
 date: 2020-08-25 17:10:00
 category: USACO
 tags:
+- greedy
 - priority queue
 - pair
 ---
