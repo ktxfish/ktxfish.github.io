@@ -34,7 +34,7 @@ int main() {
 }
 ```
 
-Can also keep an array as at there are at most 100 fences.
+Can also keep an array as there are at most 100 fences.
 
 # Speeding Ticket
 
