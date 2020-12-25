@@ -1,6 +1,6 @@
 ---
 title: USACO 2016 US Open Contest, Bronze
-date: 2020-12-25
+date: 2020-12-25 17:00:00
 category: USACO
 tags:
 ---
