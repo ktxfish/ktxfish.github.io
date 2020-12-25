@@ -5,6 +5,8 @@ category: USACO
 tags:
 ---
 
+<!--more-->
+
 # Milk Pails
 
 ```c++
