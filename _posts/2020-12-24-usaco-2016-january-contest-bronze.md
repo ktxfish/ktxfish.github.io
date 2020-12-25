@@ -1,6 +1,6 @@
 ---
 title: USACO 2016 January Contest, Bronze
-date: 2020-12-24
+date: 2020-12-24 16:00:00
 category: USACO
 tags:
 ---
