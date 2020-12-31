@@ -104,6 +104,11 @@ int main() {
     fin >> N;
     for (int n = 0; n < N; ++n)
         fin >> counter[n];
+
+    if (counter[0] > 0) {
+        fout << "-1\n";
+        return 0;
+    }
     counter[0] = 0;
 
     for (int n = 0; n < N; ++n) {
@@ -116,14 +121,13 @@ int main() {
         }
         breakout[n - counter[n]] = 1;
 
-        if (counter[n] > 0)
-            for (int i = n; i > n - counter[n]; --i) {
-                if (breakout[i] == 1) {
-                    fout << "-1\n";
-                    return 0;
-                }
-                breakout[i] = -1;
+        for (int i = n; i > n - counter[n]; --i) {
+            if (i < 0 || i >= N || breakout[i] == 1) {
+                fout << "-1\n";
+                return 0;
             }
+            breakout[i] = -1;
+        }
     }
     for (int n = 0; n < N; ++n)
         if (breakout[n] == 1)
